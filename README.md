@@ -33,3 +33,18 @@ or just:
 ```rust
 fstream::read_text("test_file.txt").unwrap();
 ```
+
+# Installation
+
+Add this line to your Cargo.toml:
+
+```rust
+[dependencies]
+fstream = "0.1.0"
+```
+
+and then add this line to your main.rs:
+
+```rust
+extern crate fstream
+```
