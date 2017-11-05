@@ -2,7 +2,7 @@
 A simple library to read/write files faster in Rust.
 
 # Examples
-### Write text to a file.
+#### Write text to a file.
 ```rust
 match fstream::write_text("test_file.txt", "Hello world!", true) {
 
@@ -18,7 +18,7 @@ or just:
 fstream::write_text("test_file.txt", "Hello world!", true).unwrap();
 ```
 
-### Read text from a file.
+#### Read text from a file.
 ```rust
 match fstream::read_text("test_file.txt") {
 
