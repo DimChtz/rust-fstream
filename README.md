@@ -38,7 +38,7 @@ fstream::read_text("test_file.txt").unwrap();
 
 Add this line to your Cargo.toml:
 
-```rust
+```toml
 [dependencies]
 fstream = "0.1.0"
 ```
