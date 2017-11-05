@@ -35,6 +35,7 @@ fstream::read_text("test_file.txt").unwrap();
 ```
 
 # Functions
+#### Read
 |Function|Description|
 |--------|-----------|
 |read|Reads file content into a buffer|
@@ -42,7 +43,8 @@ fstream::read_text("test_file.txt").unwrap();
 |read_lines|Reads text from a file and stores lines into a vector of strings|
 |read_words|Reads text from a file and stores words into a vector of strings|
 |read_delim|Reads text from a file, splits it using a user specified delimiter and stores the tokens into a vector of strings|
-|||
+
+#### Write
 |write|Writes a buffer to a file|
 |write_text|Writes a string to a file|
 |write_lines|Writes a vector of strings to a file as lines|
