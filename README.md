@@ -34,6 +34,15 @@ or just:
 fstream::read_text("test_file.txt").unwrap();
 ```
 
+# Functions
+|Function|Description|
+|--------|-----------|
+|read|Reads file content into a buffer|
+|read_text|Reads text from a file as a string|
+|read_lines|Reads text from a file and stores lines into a vector of strings|
+|read_words|Reads text from a file and stores words into a vector of strings|
+
+
 # Installation
 
 Add this line to your Cargo.toml:
