@@ -44,6 +44,10 @@ fstream::read_text("test_file.txt").unwrap();
 |read_delim|Reads text from a file, splits it using a user specified delimiter and stores the tokens into a vector of strings|
 |||
 |write|Writes a buffer to a file|
+|write_text|Writes a string to a file|
+|write_lines|Writes a vector of strings to a file as lines|
+|write_fmt|Writes formatted text to a file|
+|write_newline|Writes a new line to a file|
 
 
 # Installation
