@@ -18,3 +18,18 @@ or just:
 fstream::write_text("test_file.txt", "Hello world!", true).unwrap();
 ```
 
+Read text from a file.
+```rust
+match fstream::read_text("test_file.txt") {
+
+  Some(s) => println!("File content: {}", s),
+        
+  None => println!("Couldn't open or read the file"),
+        
+}
+```
+
+or just:
+```rust
+fstream::read_text("test_file.txt").unwrap();
+```
