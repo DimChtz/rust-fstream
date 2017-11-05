@@ -12,3 +12,9 @@ match fstream::write_text("test_file.txt", "Hello world!", true) {
   
 }
 ```
+
+or just:
+```rust
+fstream::write_text("test_file.txt", "Hello world!", true).unwrap();
+```
+
