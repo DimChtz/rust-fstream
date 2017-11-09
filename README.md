@@ -1,7 +1,7 @@
 # rust-fstream (fstream) - v0.1.1
 A simple library to read/write files faster in Rust.
 
-[Build Status](https://travis-ci.org/DimChtz/rust-fstream.svg?branch=master)
+![Build Status](https://travis-ci.org/DimChtz/rust-fstream.svg?branch=master)
 
 # Examples
 #### Write text to a file.
