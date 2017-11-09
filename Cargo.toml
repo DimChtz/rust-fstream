@@ -1,6 +1,6 @@
 [package]
 name = "fstream"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["DimChtz"]
 description = "A simple library to read/write files faster in Rust."
 keywords = ["rust", "rust-library", "filesystem", "file", "stream", "filestream", "library", "lib", "read", "write", "fstream", "fstream-rust", "rust-fstream"]
