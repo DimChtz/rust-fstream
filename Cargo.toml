@@ -1,0 +1,11 @@
+[package]
+name = "fstream"
+version = "0.1.2"
+authors = ["DimChtz"]
+description = "A simple library to read/write files faster in Rust."
+keywords = ["file", "filestream", "read", "write", "fstream"]
+license = "MIT"
+repository = "https://github.com/DimChtz/rust-fstream"
+readme = "README.md"
+
+[dependencies]
